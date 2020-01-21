@@ -7,5 +7,5 @@ object Higher_Order_Functions extends App {
       else loop(a + 1, f(a) + acc)
     loop(a,0)
   }
-
+  sum(x=> x * x,3,5)
 }
