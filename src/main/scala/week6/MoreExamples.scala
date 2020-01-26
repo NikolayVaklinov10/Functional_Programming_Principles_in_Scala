@@ -3,6 +3,11 @@ package week6
 import scala.io.Source
 
 object MoreExamples {
+
+  def main(args: Array[String]): Unit = {
+    wordCode("Java")
+  }
+
   // Phone keys have mnemonics assigned to them
   val mnemonics = Map(
     '2' -> "ABC", '3' -> "DEF", '4' -> "GHI", '5' -> "JKL",
@@ -27,4 +32,8 @@ object MoreExamples {
   def wordCode(word: String):String =
     word map charCode
 
+
+
+
 }
+
