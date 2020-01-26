@@ -30,7 +30,7 @@ object MoreExamples {
 
   /** Maps a word to the digit string it string can represent, e.g.  "Java" -> "5282"   */
   def wordCode(word: String):String =
-    word map charCode
+    word.toUpperCase map charCode
 
 
 
